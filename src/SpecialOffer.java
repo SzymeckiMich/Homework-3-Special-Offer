@@ -13,4 +13,11 @@ public class SpecialOffer {
         discount = dis;
     }
 
+    void showOffer(){
+        double priceAfterDiscount = product.price - product.price * discount ;
+        System.out.println("Regular price: " + product.price);
+        System.out.println("Discount: " + discount*100 + "%");
+        System.out.println("Price after discount: " + priceAfterDiscount);
+    }
+
 }
