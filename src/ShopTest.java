@@ -9,6 +9,10 @@ public class ShopTest {
         SpecialOffer offer1 = new SpecialOffer(cookies, "Promocja na ciastka", "1 Luty", "1 Marzec", 0.2);
 
 
+        coffee.showProduct();
+        candys.showProduct();
+        rolls.showProduct();
+        cookies.showProduct();
         offer1.showOffer();
 
     }
